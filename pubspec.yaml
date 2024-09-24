@@ -1,0 +1,39 @@
+name: responsive_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  cached_network_image: ^3.4.1
+  cross_file: ^0.3.4+2
+  device_preview: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_lints: ^4.0.0
+  get_it: ^8.0.0
+  go_router: ^14.2.7
+  octo_image: ^2.1.0
+  page_transition: ^2.1.0
+  pdf: ^3.11.1
+  sizer: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/files/
+    - assets/images/
+  fonts:
+    - family: hafs
+      fonts:
+        - asset: assets/fonts/UthmanicHafs1 Ver18.ttf
+    - family: arab
+      fonts:
+        - asset: assets/fonts/Droid-Arabic-Kufi.ttf
