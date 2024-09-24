@@ -55,7 +55,6 @@ class HomeView extends StatelessWidget {
 
               final file = File("C:/Users/Admin/Desktop/example6.pdf");
               await file.writeAsBytes(await pdf.save());
-              print('PDF created at: ${file.path}');
             },
             child: const Text("go"),
           ),
