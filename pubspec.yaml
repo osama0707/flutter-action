@@ -29,7 +29,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/files/
-    - assets/images/
   fonts:
     - family: hafs
       fonts:
